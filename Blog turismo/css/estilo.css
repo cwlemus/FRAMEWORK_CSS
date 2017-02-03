@@ -1,0 +1,136 @@
+.header-fondo {
+  width: 100%;
+  height: 150px;
+  background: #42a5f5;
+}
+
+.botones {
+  padding: 0px;
+  width: 100%;
+  margin-right: 0px;
+}
+ul {
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  width: 100%;
+/*  border: 1px solid white;*/
+}
+.navegacion-opcion {
+  /*border: 1px solid purple;*/
+  padding: 0px;
+  margin-right: 0px;
+  width: 100%;
+}
+a {
+  margin-right: 0px;
+}
+
+.navegacion-fila {
+  /*border: 1px solid white;*/
+  padding: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+}
+
+.navegacion {
+/*  border: 1px solid red;*/
+  padding: 0px;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.borde {
+  border: 1px solid red;
+}
+
+.img-portada-1 {
+  width: 100%;
+}
+
+.img-portada-2 {
+  width: 100%;
+  height: 500px;
+}
+
+.red-social{
+  width: 100%;
+  padding: 0px;
+  margin-left: 0px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.blog {
+  display: inline-block;
+}
+
+.img-blog {
+  padding: 5px;
+  width: 100%;
+
+}
+.calendar {
+  margin-top: 5px;
+  margin-left: 0px;
+}
+
+.contenedor-autor {
+  margin-top: 0px;
+  margin-left: 50px;
+}
+
+h7 {
+  text-align: right;
+}
+
+.parrafo-blog{
+  text-align: justify;
+}
+
+.slogan {
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 30px;
+  /*border: 1px solid gray;*/
+}
+
+.logo-turismo {
+  width: 70%;
+  height: 150px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.contenido-fondo {
+  background: black;
+  background-image: url('../img/portada7.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+}
+
+@media (max-width:800px) {
+  .img-portada-2{
+    width: 100%;
+    height: 250px;
+  }
+  .red-social {
+    width: 40px;
+  }
+}
+
+@media (max-width:600px) {
+  .contenedor-autor {
+    margin-top: 20px;
+  }
+  .red-social {
+    width: 40px;
+  }
+}

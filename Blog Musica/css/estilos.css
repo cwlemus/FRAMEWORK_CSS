@@ -1,0 +1,59 @@
+/* Clase para darle estilos al body */
+.music-body {
+  background: #A52A2A;
+}
+
+textarea {
+  width: 100%;
+}
+
+.grupo {
+  padding: 10px;
+  width: 250px;
+  height: 250px;
+}
+
+.music-portada {
+  background: white;
+}
+
+.music-search {
+  background: white;
+  padding: 5px;
+}
+
+#contenido {
+  margin-top: 20px;
+  border-radius: 20px !important;
+}
+
+header {
+  width: 100%;
+  background: white;
+}
+
+#comentario {
+  width: 70px;
+}
+.logo-img {
+  margin-top: 10px;
+  padding: 20px;
+  width: 250px;
+}
+
+.redes-sociales {
+  margin-top: 20px;
+}
+
+.img-social{
+  width: 40px;
+  height: 40px;
+  margin-top: 50px;
+}
+
+.menu {
+  background: #DEB887;
+}
+.menu:hover {
+  background: white;
+}
